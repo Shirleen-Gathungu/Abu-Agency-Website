@@ -1,0 +1,39 @@
+<nav>
+              
+    <ul class=>
+       <li><a href="#">Home</a></li>
+     <li><a href="#">News</a></li>
+     <li><a href="#">Service</a></li>
+     <li><a href="#">Contact</a></li>
+    </ul>
+ 
+
+
+</nav>
+.container-one img{
+    margin-top: -30px;
+}
+.container-one nav{
+    list-style: none;
+margin: -120px 300px;
+color: grey;
+
+}
+.nav-links li{
+    align-items: center;
+    display: inline-block;
+    justify-content: space-between;
+    color:blue;
+    padding:3px 19px;
+  
+
+
+}
+.nav-links li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
