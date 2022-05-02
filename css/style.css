@@ -3,6 +3,7 @@ body{
 
 }
 .container-one{
+/* background-image: url("images/color\ .jpg"); */
 background-color:#ffff;
 margin: 20px 90px;
 padding: 69px 0px;
@@ -69,8 +70,10 @@ h1{
       color: grey;
   }
   .sub-container img{
-      margin-left: 700px;
-      margin-top: -360px;
+      margin-left: 560px;
+      margin-top: -390px;
+     
+    
   }
   .button-two{
     cursor: pointer;
@@ -226,9 +229,9 @@ margin-bottom: 100px;
     margin-left: 10px;
 }
 .box-content-two{
-    background-color: rgb(0, 161, 166);
+    background-color: rgb(54, 128, 100);
     box-sizing: border-box;
-    border: 1px solid  rgb(0, 161, 166) ;
+    border: 1px solid  rgb(54, 128, 100) ;
     width: 320px;
     height: 230px;
     margin-top: -230px;
@@ -290,12 +293,15 @@ margin-bottom: 100px;
     font-size: 16px;
 }
 .more-content img{
+    margin-top: 60px;
     margin-left: 20px;
+  
     
 }
 .more-content h1{
-    margin-left: 460px;
-    margin-top: -320px;
+    margin-left: 560px;
+    margin-top: -260px;
+    font-size: 40px;
   
 }
 
@@ -304,8 +310,8 @@ margin-bottom: 100px;
     border: 1px solid  rgb(0, 161, 166);
     background-color:  rgb(0, 161, 166);
     color:white ;
-    margin-top: 20px;
-    margin-left: 460px;
+    margin-top: 24px;
+    margin-left: 560px;
     padding: 3px 10px;
     border-radius: 20px;
     width: 25px;
@@ -313,14 +319,15 @@ margin-bottom: 100px;
     text-align: center;
 }
 .number-one p{
-    margin-left: 500px;
+    margin-left: 590px;
     margin-top: -37px;
     color: black;
     font-weight: bolder;
+    font-size: 20px;
 }
 .number-two h1{
-margin-left: 460px;
-margin-top: 20px;
+margin-left: 560px;
+margin-top: 40px;
 box-sizing: border-box;
 border: 1px solid rgb(60, 97, 147);
 background-color: rgb(60, 97, 147);
@@ -332,14 +339,16 @@ text-align: center;
 padding: 3px 10px;
 }
 .number-two p{
-    margin-top: -40px;
-    margin-left: 500px;
+    margin-top: -35px;
+    margin-left: 590px;
     color:black;
     font-weight: bolder;
+    font-size: 20px;
 }
 .number-three h1{
-    margin-top: 5px;
-    margin-bottom: -10px;
+    margin-left: 560px;
+    margin-top: 40px;
+    margin-bottom: -90px;
     border-radius:70px ;
     background-color: yellow;
     box-sizing: border-box;
@@ -352,87 +361,152 @@ padding: 3px 10px;
     padding: 3px 10px;
 }
 .number-three p{
-    margin-top: -20px;
-    margin-left: 500px;
+    margin-top: 65px;
+    margin-left: 590px;
     color: black;
     font-weight: bolder;
+    font-size: 20px;
 }
 .logo-two{
-    margin-left: 580px;
-    margin-top: 40px;
-    margin-bottom: -90px;
+    margin-left: 690px;
+    margin-top: -60px;
+    margin-bottom: -60px;
 }
 .number-three h5{
-    margin-top: -290px;
-    margin-left: 470px;
+    margin-top: -350px;
+    margin-left: 560px;
     font-size: 16px;
     color: rgb(20, 143, 65);
   
 }
 .container-three{
     background-color:#ffff;
-    margin: 220px -10px;
+    margin: 170px -10px;
     padding: 69px 0px;
-    height: 40vh;
+    height: 30vh;
 }
+.ball-images img{
+    margin-left: 810px;
+    margin-bottom: -220px;
+}
+.ball-images-two img{
+    margin-top: 50px;
+    margin-left: 3px;
+}
+.ball-images-three img{
+    margin-left: 190px;
+    margin-top: -190px;
+    margin-bottom: 230px;
+}
+.ball-images-four img{
+    margin-left: 1036px;
+    margin-top:-290px ;
+    margin-bottom: 290px;
+}
+  
 
 .container-three h1{
-    margin-top: 40px;
+    margin-top: -410px;
     margin-left: 50px;
     text-align: center;
 }
 .container-three p{
     margin-top: 10px;
     margin-left: 399px;
+    color: black;
+    font-size: 16px;
 }
-.button-email{
+#Email{
+    margin-left:360px ;
+    padding: 20px 120px;
+    text-align: left;
+    background-color: rgb(49, 112, 88);
+    border:0 solid rgb(54, 128, 100) ;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+input[id^="Email"]::placeholder {
+    color:white;
+   
+  }
+  
+#Subscribe{
+    margin-left: -120px;
+    padding: 15px 25px;
+    border:0 solid rgb(119, 203, 171) ;
+    background-color: rgb(10, 179, 185);
+    border-radius: 10px;
+    color: bisque;
+    width: 60px;
+}
+input[id^="Subscribe"]::placeholder {
+    color:white;
+    font-weight: bold;
+    font-size: 12px;
+  }
+/* .button-email{
     margin-left: 399px;
     margin-top: 25px;
     padding: 20px 130px 20px 150px;
     background-color: rgb(54, 128, 100);
+    border: 0 solid  rgb(54, 128, 100);
     border-radius: 10px;
-}
-.button-words p{
+} */
+/* .button-words p{
     margin-top: -32px;
+    margin-bottom: -10px;
     margin-left: 410px;
-    color: white;
-}
-.button-a{
+    color: green;
+} */
+/* .button-a{
    padding: 15px 50px 15px 50px;
 margin-left: -115px;
+border: 0 solid rgb(0, 161, 166) ;
 border-radius: 10px;
 background-color:rgb(0, 161, 166);
-}
-.button-words h3{
+} */
+/* .button-words h3{
     margin-left: 590px;
     margin-top: -30px;
     color: white;
     font-size: 16px;
-}
+} */
  .container-four{
     background-color:#ffff;
-    margin: -180px -10px;
+    margin: -140px -10px;
     padding: 60px 0px;
     height: 80vh;
  }
  .logo-c{
-     margin-left: 320px;
-     margin-top: 35px;
+     margin-left: 295px;
+     margin-right: 20px;
+     margin-top: 275px;
+     margin-bottom: 190px;
+ }
+ 
+ .image-logo img{
+     margin-top: -90px;
+     margin-left: 290px;
+     margin-bottom: -10px;
  }
  .logo-c h1{
-     margin-top: -10px;
+     margin-top: -290px;
      margin-left:-170px ;
      font-size: 20px;
-     color: rgb(38, 241, 180);
+     color:rgb(0, 161, 166);
  }
  .logo-c h2{
+     margin-top: 35px;
+     margin-bottom: 50px;
      margin-left: -170px;
  }
  .logo-c h3{
 margin-left:-170px ; 
 margin-top: 40px;
 }
-.box-name{
+/* .box-name{
     box-sizing: border-box;
     background-color:whitesmoke ;
     border: 1px solid whitesmoke;
@@ -445,36 +519,77 @@ margin-top: 40px;
     margin-top: 10px;
     color: grey;
     font-size: 12px;
+} */
+label{
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+
+.box-name{
+    margin-top: 20px;
+    margin-left: -170px;
+}
+.box-name label{
+    margin-top: 10px;
+
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+span #full-name{
+    margin-top: 10px;
+  margin-bottom: -20px;
+  padding: 5px 70px;
+  text-align: left;
+  border-radius: 5px;
+  border:  solid whitesmoke;
+  background-color: whitesmoke;
 }
 .logo-c h4{
     margin-left: -170px;
     font-size: 20px;
 }
 .box-name-two{
-    box-sizing: border-box;
-    background-color:whitesmoke ;
-    border: 1px solid whitesmoke;
-    width: 300px;
+    margin-top: 40px;
     margin-left: -170px;
-    padding: 20px 15px;
+  
 }
-.box-name-two h1{
+.box-name-two label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+span #message{
+    margin-top: 10px;
+    margin-bottom: -20px;
+    padding: 45px 70px;
+    text-align: left;
+    border-radius: 5px;
+    border:  solid whitesmoke;
+    background-color: whitesmoke;
+  
+}
+/* .box-name-two h1{
     margin-left: -10px;
     margin-top:9px;
     font-size: 12px;
     color: grey;
-}
+} */
 .last-button{
-    margin-top: 25px;
+    margin-top: 35px;
     margin-left: -170px;
     padding: 16px 15px;
     border-radius: 50px;
+    border: 0 solid rgb(0, 161, 166);
     background-color:  rgb(0, 161, 166);
     color: white;
 
+
 }
 .last-image img{
-    margin-left: 260px;
-   margin-top: -760px;
-   margin-bottom: -30px;
+    margin-left: 300px;
+   margin-top: -700px;
+   margin-bottom: 15px;
+   width: 390px;
 }
